@@ -46,6 +46,9 @@
 
 </head>
 <body>
+    <script>
+        (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="GH4bJdvHFd8qlqPyky2Iy";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+        </script>
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -84,6 +87,16 @@
                                     </li> -->
                                     <li><a href="contact.html">Contact</a></li>
                                     <li><a href="work.html">Work With Us</a></li> 
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                
+                                    <!-- <li><a>Blog</a>
+                                        <ul class="submenu">
+                                            <li><a>Basic Cleaning (without products) - £18.00/hr.</a></li>
+                                            <li>Basic cleaning (with products) - £21.20/hr</li>
+                                            
+                                        </ul>
+                                    </li> -->
+
                                 </ul>
                             </nav>
                         </div>
